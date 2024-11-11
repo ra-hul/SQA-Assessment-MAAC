@@ -18,11 +18,17 @@ dependencies {
 
     implementation 'com.googlecode.json-simple:json-simple:1.1.1'
 
+    // https://mvnrepository.com/artifact/io.qameta.allure/allure-testng
+    implementation group: 'io.qameta.allure', name: 'allure-testng', version: '2.29.0'
+
+
 
 
 }
 
 test {
-    useTestNG()
+    useTestNG(){
+        suites "./src/test/resources/suite.xml"
+    }
 
 }

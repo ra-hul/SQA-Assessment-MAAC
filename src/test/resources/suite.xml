@@ -12,8 +12,7 @@
     </test>
     <test name="Automated Profile Update">
         <classes>
-            <class name="testrunners.MyTestRunner">
-            </class>
+            <class name="testrunners.MyTestRunner"></class>
         </classes>
     </test>
 </suite>
