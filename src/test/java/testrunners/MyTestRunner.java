@@ -28,7 +28,7 @@ public class MyTestRunner extends Setup {
         profilePage.updateImage("./src/test/img/ppp.jpg");
         profilePage.updateDob("05/28/1998");
         JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("window.scrollBy(0, 500);");
+        js.executeScript("window.scrollBy(0, 800);");
         profilePage.updateGender();
         profilePage.updateEducation("BSC");
         profilePage.updateUniversity("American International University - Bangladesh (AIUB)");

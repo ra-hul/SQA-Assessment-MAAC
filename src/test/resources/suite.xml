@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name ="Xampro Automation">
+    <test name="User can Register" >
+        <classes>
+            <class name= " testrunners.RegistrationTestRunner"></class>
+        </classes>
+    </test>
+    <test name="Registered User can Login">
+        <classes>
+            <class name="testrunners.LoginTestRunner"></class>
+        </classes>
+    </test>
+    <test name="Automated Profile Update">
+        <classes>
+            <class name="testrunners.MyTestRunner">
+            </class>
+        </classes>
+    </test>
+</suite>

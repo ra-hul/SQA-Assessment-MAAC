@@ -17,7 +17,7 @@ public class Setup {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
     }
 
-    @AfterMethod
+//    @AfterMethod
     public void closeBrowser() {
         driver.quit();
     }
