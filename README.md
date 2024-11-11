@@ -19,6 +19,16 @@ Need to acknowledge about those:
 5. Gradle
 6. IntelliJ IDE
 
+## How to generate an Allure report?
+Run the following command in the terminal inside the project directory:
+
+- allure generate allure-results
+- allure serve allure-results
+
+
+## Output result of the Allure Report
+![allure](https://github.com/user-attachments/assets/8e3d4b2a-b983-4eae-ae9d-746a91e6ccc0)
+
 
 ## Screen Record of the automation
 
